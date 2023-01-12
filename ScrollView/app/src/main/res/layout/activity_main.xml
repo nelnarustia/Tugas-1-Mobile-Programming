@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"
+            android:text="Ardian"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv1"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:text="Arif" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv2"
+            android:background="@android:color/holo_purple"
+            android:gravity="center"
+            android:text="Wahyudi" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/tv3"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:text="Adalah" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv4"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:text="Mahasiswa" />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv5"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="Teknik Informatika" />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv6"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:text="UNISSULA" />
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv7"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:text="Fakultas" />
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv8"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:text="Teknologi" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv9"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="Industri" />
+
+    </LinearLayout>
+</ScrollView>
